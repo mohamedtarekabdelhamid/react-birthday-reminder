@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+
+import List from './components/List';
+import data from './data';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    const [people, setPeople] = React.useState(data);
+    const clearPeopleHandler = () => {
+        setPeople([]);
+    };
+    return (
+        <>
+            <main>
+                <section className="container">
+                    <h3>{people.length} birthdays today</h3>
+                    {people.map((person) => (
+                        <List key={person.id} person={person} />
+                    ))}
+                    <button onClick={clearPeopleHandler}>Clear All</button>
+                </section>
+            </main>
+        </>
+    );
 }
 
-export default App
+export default App;
