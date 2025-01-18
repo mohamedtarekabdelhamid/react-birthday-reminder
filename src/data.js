@@ -1,32 +1,32 @@
 export default [
     {
         id: 1,
-        name: 'Bertie Yates',
+        name: 'Benjamin Yates',
         age: 29,
-        image: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
+        image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
     {
         id: 2,
-        name: 'Hester Hogan',
+        name: 'Henry Hogan',
         age: 32,
-        image: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-3_rxtqvi.jpg',
+        image: 'https://images.pexels.com/photos/2790443/pexels-photo-2790443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
     {
         id: 3,
-        name: 'Larry Little',
+        name: 'Logan Little',
         age: 36,
-        image: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
+        image: 'https://images.pexels.com/photos/6285531/pexels-photo-6285531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
     {
         id: 4,
         name: 'Sean Walsh',
         age: 34,
-        image: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+        image: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
     },
     {
         id: 5,
-        name: 'Lola Gardner',
+        name: 'Liam Gardner',
         age: 29,
-        image: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+        image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
 ];
